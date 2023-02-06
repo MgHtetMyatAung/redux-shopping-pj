@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+@import url('../node_modules/bootstrap/dist/css/bootstrap.min.css');
+
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+.heart{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.priceCart{
+    position: relative;
+}
+
+.cart-animate{
+    transition: all 0.3s;
+}
+
+.cart-animate:hover{
+    transform: rotate(1deg) scale(0.98);
+}
+
+.d-image{
+    height: 90px;
+}
+
+@media (max-width: 576px) {
+    .d-image{
+        height: 40px;
+        object-position: center;
+    }
+ }
+
+@media (max-width: 1399.98px) { 
+    .d-image{
+        height: 70px;
+        object-position: center;
+    }
+}
